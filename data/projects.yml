@@ -1,0 +1,27 @@
+projects:
+  - name: KLOK-RACING
+    description: Local scooter and moped store. Website including used parts and scooters showcase.
+    logo:
+      file: klokracing.png
+      alt: Scooters en brommers Klokracing
+    scope: Backend and frontend
+    url: https://klokracing.be
+
+  - name: JH Korridor
+    description: JH Korridor is our local youth club in Beerse. I created a backend, so they can easily edit the volunteers and change basic contact info.
+    logo:
+      file: jhkorridor.jpg
+      alt: JH Korridor
+      padding-top: True
+    scope: Backend
+    url: https://jhkorridor.be
+    
+
+  - name: Tuinfeest
+    description: Tuinfeest is the biggest yearly organized event by JH Korridor. 3 stages, free access and over 2000 visitors!
+    logo:
+      file: tuinfeest.png
+      alt: Tuinfeest by JH Korridor
+      padding-top: True
+    scope: Backend
+    url: https://tuinfeestbeerse.be
