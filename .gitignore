@@ -5,6 +5,10 @@
 !/.gitignore
 !/README.md
 
+!/.github/
+!/.github/workflows/
+!/.github/workflows/build-and-publish.yml
+
 !/data/
 !/data/projects.yml
 
