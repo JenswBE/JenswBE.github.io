@@ -70,29 +70,62 @@
       </div>
     </div>
 
-    %for project in data['projects']['projects']:
       <div class="card">
         <div class="row">
           <div class="twelve columns">
             <div class="project">
               <div class="center-text">
                 <img class="project-logo"
-                    src="assets/img/${project['logo']['file']}"
-                    title="${project['logo']['alt']}"
-                    %if project['logo'].get('padding-top'):
-                      style="padding-top: 20px;"
-                    %endif
+                    src="assets/img/klokracing.png"
+                    title="Scooters en brommers Klokracing"
                 />
                 
-                <p class="title">${project['name']}</p>
-                <p>${project['scope']} - <a target="_blank" href="${project['url']}">${project['url']}</a></p>
-                <p>${project['description']}</p>
+                <p class="title">KLOK-RACING</p>
+                <p>Frontend and backend - <a target="_blank" href="https://klokracing.be">https://klokracing.be</a></p>
+                <p>Local scooter and moped store. Website including used parts and scooters showcase.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    %endfor
+      <div class="card">
+        <div class="row">
+          <div class="twelve columns">
+            <div class="project">
+              <div class="center-text">
+                <img class="project-logo"
+                    src="assets/img/tuinfeest.png"
+                    title="Tuinfeest by JH Korridor"
+                      style="padding-top: 20px;"
+                />
+                
+                <p class="title">Tuinfeest</p>
+                <p>Frontend and backend - <a target="_blank" href="https://tuinfeestbeerse.be">https://tuinfeestbeerse.be</a></p>
+                <p>Tuinfeest is the biggest yearly organized event by JH Korridor. 3 stages, free access and over 2000 visitors!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row">
+          <div class="twelve columns">
+            <div class="project">
+              <div class="center-text">
+                <img class="project-logo"
+                    src="assets/img/jhkorridor.jpg"
+                    title="JH Korridor"
+                      style="padding-top: 20px;"
+                />
+                
+                <p class="title">JH Korridor</p>
+                <p>Backend - <a target="_blank" href="https://jhkorridor.be">https://jhkorridor.be</a></p>
+                <p>JH Korridor is our local youth club in Beerse. I created a backend, so they can easily edit the volunteers and change basic contact info.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="row">
       <p><a id="to-top" href="#top" title="To top of page" class="button button-primary">To top</a></p>
