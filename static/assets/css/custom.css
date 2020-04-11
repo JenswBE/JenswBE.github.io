@@ -1,21 +1,24 @@
 /* GENERAL STYLES */
+
 .center-text {
-  text-align: center;
+    text-align: center;
 }
 
 .title {
-  font-size: 2.4rem;
-  line-height: 1.35;
-  padding-top: 1rem;
+    font-size: 2.4rem;
+    line-height: 1.35;
+    padding-top: 1rem;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 #CCC;
-  margin-bottom: 20px;
-  margin-top: 20px;
+    box-shadow: 0 4px 8px 0 #CCC;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
+
 /* SITE STYLE */
+
 
 /*
 .container
@@ -29,61 +32,65 @@
 .project-logo
 */
 
-.container, #contact {
-  margin-top: 25px;
+.container,
+#contact {
+    margin-top: 25px;
 }
 
 #contact {
-  border-bottom: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
 }
 
 #contact #avatar {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 #contact #avatar img {
-  border-radius: 100%;
-  width: 90%;
-  max-width: 300px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 5px;
+    border-radius: 100%;
+    width: 90%;
+    max-width: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
 }
 
 #contact #name {
-  font-size: 3rem;
-  margin-bottom: 5px;
+    font-size: 3rem;
+    margin-bottom: 5px;
 }
 
 #contact #email {
-  font-size: 1.2em;
-  text-decoration: none;
-  margin-bottom: 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-bottom: 0;
 }
 
 #interests p.title {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #interests p {
-  padding-left: 20px;
-  padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .project {
-  margin: 0 2rem 2rem 2rem;
+    margin: 0 2rem 2rem 2rem;
 }
 
 .project .title {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .project .project-logo {
-  max-width: 800px;
-  min-width: 150px;
-  width: 33%;
+    max-width: 800px;
+    min-width: 150px;
+    width: auto;
+    max-height: 200px;
+    min-height: 150px;
+    height: auto;
 }
 
 #to-top {
-  width: 100%;
+    width: 100%;
 }

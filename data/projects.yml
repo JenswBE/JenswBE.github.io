@@ -1,6 +1,6 @@
 projects:
   - name: KLOK-RACING
-    description: Local scooter and moped store. Website including used parts and scooters showcase.
+    description: Local scooter and moped store.
     logo:
       file: klokracing.png
       alt: Scooters en brommers Klokracing
@@ -16,11 +16,20 @@ projects:
     scope: Frontend and backend
     url: https://tuinfeestbeerse.be
 
-  - name: JH Korridor
-    description: JH Korridor is our local youth club in Beerse. I created a backend, so they can easily edit the volunteers and change basic contact info.
+  - name: Melthon
+    description: Minimalistic static website generator written in Python
     logo:
-      file: jhkorridor.jpg
-      alt: JH Korridor
+      file: python.svg
+      alt: Powered by Python
       padding-top: True
-    scope: Backend
-    url: https://jhkorridor.be
+    scope: Creator
+    url: https://github.com/JenswBE/python-melthon
+
+  - name: Proto Browser
+    description: Visualization tool for Protobuf files
+    logo:
+      file: proto-browser.png
+      alt: Proto Browser
+      padding-top: True
+    scope: Creator
+    url: https://proto-browser.jensw.be/
