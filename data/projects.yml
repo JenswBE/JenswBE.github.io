@@ -1,4 +1,28 @@
 projects:
+  - name: Bjoetiek Y
+    description: Beauty salon and products catalogue
+    logo:
+      file: bjoetiek-y.jpg
+      alt: Bjoetiek Y
+    scope: Frontend and backend
+    url: https://bjoetiek-y.be
+
+  - name: Dead Link Checker (DeLiC)
+    description: Crawls a website and checks for broken links. Supports multiple notification channels.
+    logo:
+      file: python.svg
+      alt: Powered by Python
+    scope: Creator
+    url: https://github.com/JenswBE/python-dead-link-checker
+
+  - name: Sunrise Alarm
+    description: DIY alarm clock using microservices (Rust and Vue.js)
+    logo:
+      file: sunrise-alarm.jpg
+      alt: DIY alarm clock
+    scope: Creator
+    url: https://github.com/JenswBE/sunrise-alarm
+
   - name: KLOK-RACING
     description: Local scooter and moped store.
     logo:
@@ -12,7 +36,6 @@ projects:
     logo:
       file: tuinfeest.png
       alt: Tuinfeest by JH Korridor
-      padding-top: True
     scope: Frontend and backend
     url: https://tuinfeestbeerse.be
 
@@ -21,7 +44,6 @@ projects:
     logo:
       file: python.svg
       alt: Powered by Python
-      padding-top: True
     scope: Creator
     url: https://github.com/JenswBE/python-melthon
 
@@ -30,6 +52,5 @@ projects:
     logo:
       file: proto-browser.png
       alt: Proto Browser
-      padding-top: True
     scope: Creator
     url: https://proto-browser.jensw.be/

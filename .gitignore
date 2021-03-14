@@ -27,10 +27,12 @@
 !/static/assets/favicon/*
 
 !/static/assets/img/
+!/static/assets/img/bjoetiek-y.jpg
 !/static/assets/img/jens.jpg
 !/static/assets/img/klokracing.png
 !/static/assets/img/proto-browser.png
 !/static/assets/img/python.svg
+!/static/assets/img/sunrise-alarm.jpg
 !/static/assets/img/tuinfeest.png
 
 !/templates/

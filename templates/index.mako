@@ -61,8 +61,8 @@
           <div id="interests">
             <p class="title">Interests</p>
             <p>
-              Linux, web development and BI reporting.
-              But, I'm always in for any try-outs and small projects.
+              Linux, web and system development and tinkering.
+              I'm always in for any try-outs and small projects.
               Just send me an email and we will see!
             </p>
           </div>
@@ -79,7 +79,7 @@
                 <img class="project-logo"
                     src="assets/img/${project['logo']['file']}"
                     title="${project['logo']['alt']}"
-                    %if project['logo'].get('padding-top'):
+                    %if not loop.first:
                       style="padding-top: 20px;"
                     %endif
                 />
