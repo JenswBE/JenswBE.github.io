@@ -28,7 +28,7 @@ projects:
     logo:
       file: klokracing.png
       alt: Scooters en brommers Klokracing
-    scope: Frontend and backend
+    scope: Static site using Melthon
     url: https://klokracing.be
 
   - name: Tuinfeest
@@ -36,7 +36,7 @@ projects:
     logo:
       file: tuinfeest.png
       alt: Tuinfeest by JH Korridor
-    scope: Frontend and backend
+    scope: Static site using Melthon
     url: https://tuinfeestbeerse.be
 
   - name: Melthon
