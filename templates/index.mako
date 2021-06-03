@@ -43,6 +43,9 @@
   <link href="assets/css/skeleton.css" rel="stylesheet" type="text/css">
   <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
 
+  <!-- GoatCounter
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script data-goatcounter="https://stats.jensw.be/count" async src="https://stats.jensw.be/count.js"></script>
 </head>
 <body>
 
