@@ -46,11 +46,3 @@ projects:
       alt: Powered by Python
     scope: Creator
     url: https://github.com/JenswBE/python-melthon
-
-  - name: Proto Browser
-    description: Visualization tool for Protobuf files
-    logo:
-      file: proto-browser.png
-      alt: Proto Browser
-    scope: Creator
-    url: https://proto-browser.jensw.be/
