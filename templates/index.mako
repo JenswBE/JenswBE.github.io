@@ -58,7 +58,7 @@
         <div class="twelve columns">
           <div class="center-text" id="contact">
             <p id="avatar"><img src="assets/img/jens.jpg" title="Jens Willemsens"/></p>
-            <p id="name">Jens&nbsp;Willemsens</p>
+            <p id="name">Jens Willemsens</p>
             <p><a id="email" href="mailto:contact@jensw.be">contact@jensw.be</a></p>
           </div>
           <div id="interests">
@@ -79,16 +79,23 @@
           <div class="twelve columns">
             <div class="project">
               <div class="center-text">
-                <img class="project-logo"
-                    src="assets/img/${project['logo']['file']}"
-                    title="${project['logo']['alt']}"
-                    %if not loop.first:
-                      style="padding-top: 20px;"
-                    %endif
-                />
+                <div class="project-logo-box">
+                  <img class="project-logo"
+                      src="assets/img/${project['logo']['file']}"
+                      title="${project['logo']['alt']}"
+                      %if not loop.first:
+                        style="padding-top: 20px;"
+                      %endif
+                  />
+                </div>
                 
                 <p class="title">${project['name']}</p>
-                <p>${project['scope']} - <a target="_blank" href="${project['url']}">${project['url']}</a></p>
+                <p>
+                  ${project['scope']} -
+                  <a target="_blank" href="${project['url']}" class="link">
+                    ${project['url']}
+                  </a>
+                </p>
                 <p>${project['description']}</p>
               </div>
             </div>

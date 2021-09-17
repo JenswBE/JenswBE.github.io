@@ -82,13 +82,21 @@
     margin-bottom: 0;
 }
 
-.project .project-logo {
+.project .link {
+    overflow-wrap: break-word;
+}
+
+.project .project-logo-box {
+    display: inline-block;
     max-width: 800px;
-    min-width: 150px;
-    width: auto;
     max-height: 200px;
-    min-height: 150px;
+}
+
+.project .project-logo-box .project-logo {
+    width: 90%;
     height: auto;
+    max-width: 800px;
+    max-height: 200px;
 }
 
 #to-top {
